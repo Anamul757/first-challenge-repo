@@ -9,6 +9,26 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+.section-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.section-heading {
+    olor: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
 /* header related style */
 .header-section {
@@ -39,17 +59,7 @@
     margin-bottom: 30px;
 }
 
-.section-description {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
-    opacity: 0.7;
-    margin-bottom: 30px;
-}
+
 
 .header-img {
     margin-bottom: 30px;
@@ -68,4 +78,11 @@
     padding: 20px 25px;
     margin-bottom: 15px;
 }
+
 /* main section style */
+main {
+    weight: 1000px;
+    height: 1300px;
+
+}
+
