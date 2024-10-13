@@ -138,12 +138,12 @@ main {
 
 /* inspired section style */
 .inspiration-section {
-    width: 1140px;
-    height: 775px;
+    width: 1000px;
+    height: 300px;
     margin: 300px;
 }
 #inspired-style{
-    margin: 30px 0px;
+    margin: 20px 0px 0px;
 }
 .youtube-video{
     margin: auto;
@@ -156,4 +156,31 @@ main {
     height: 100%;
     width: 100%;
     border: 0;
+}
+/* Target section style */
+.target-card{
+position: static;
+width: 364px;
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 40px;
+margin: 0px 24px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.target-card-section{
+    display: flex;
+    gap:20px;
+    height:400px ;
+    width: 950px;
+}
+.css-target{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.js-target{
+   background-color: rgba(255, 223, 0, 0.05);
 }
