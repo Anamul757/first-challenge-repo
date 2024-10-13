@@ -23,7 +23,7 @@
 }
 
 .section-heading {
-    olor: rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
@@ -57,7 +57,6 @@
 
 /* header related style */
 .header-section {
-    /* position: absolute; */
     flex-direction: column;
     height: 650px;
     width: 1260px;
@@ -106,7 +105,6 @@
 
 /* main section style */
 main {
-    /* height: 650px; */
     width: 1260px;
     display: flex;
     flex-direction: column;
@@ -121,14 +119,35 @@ main {
     width: 1000px;
     padding: 70px 90px;
 }
-.description-section-card{
+
+.description-section-card {
     display: flex;
     justify-content: space-between;
+    margin: 80px 0px;
 
 }
-.description-para{
+
+.description-para {
     text-align: left;
+    margin: 15px 0px;
 }
-.short-des{
+
+.short-des {
     width: 450px;
+}
+
+/* inspired section style */
+.inspiration-section {
+    width: 1140px;
+    height: 775px;
+    margin: 300px;
+}
+#inspired-style{
+    margin: 30px 0px;
+}
+.youtube-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
