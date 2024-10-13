@@ -146,8 +146,14 @@ main {
     margin: 30px 0px;
 }
 .youtube-video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+    margin: auto;
+    width: 560px;
+    height: 315px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.youtube-video iframe{
+    height: 100%;
+    width: 100%;
+    border: 0;
 }
