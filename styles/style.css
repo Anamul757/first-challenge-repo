@@ -231,3 +231,32 @@ main {
     border-radius: 8px;
     border: none;
 }
+
+/* footer section style */
+.footer-des {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 36px;
+    align-items: center;
+    gap: 15px;
+    order: 1;
+    margin: 0px 10px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
